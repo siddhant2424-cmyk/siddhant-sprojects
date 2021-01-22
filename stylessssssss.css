@@ -1,4 +1,11 @@
-
+#a{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/668/663/original/abstract-striped-diagonal-yellow-background.jpg");
+    color: green;
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+    margin: 0px;
+}
 @font-face {
     font-family: 'OpenSans-Regular';
     font-style: normal;
