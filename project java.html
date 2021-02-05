@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grading</title>
+</head>
+<style>
+    body{
+        background-color: #5DED5A;
+    }
+    .z{
+        height: 500px;
+        width: 500px;
+        background-color: #5EF787;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 2%;
+        box-shadow: 5px 5px 5px red;
+
+    }
+    #Math,#hindi,#english,#sst,#science{
+        height: 50px;
+        width: 250px;
+        margin: 5px;
+        font-size: 25px;
+    }
+    #Math{
+        margin-top: 30px;
+    }
+    #man{
+        height: 60px;
+        width: 200px;
+        margin-top: 40px;
+        font-family: cursive;
+        font-size: 35px;
+        background-color: red;
+        border: none;
+    }
+</style>
+<body>
+
+<div class="z"> 
+   <input type="number" id="Math" placeholder="marks in maths"><br>
+    <input type="number" id="hindi" placeholder="marks in hindi"><br>
+    <input type="number" id="english" placeholder="marks in english"><br>
+    <input type="number" id="science" placeholder="marks in science"><br>
+    <input type="number" id="sst" placeholder="marks in sst"><br>
+    <input type="submit" value="total marks" onclick="marks()" id="man">
+</div>
+    <script>
+        function marks(){
+            var a = Number(document.getElementById("Math").value)
+            var b = Number(document.getElementById("Math").value)
+            var c = Number(document.getElementById("Math").value)
+            var d = Number(document.getElementById("Math").value)
+            var e = Number(document.getElementById("Math").value)
+            var f = (a+b+c+d+e)
+            var g = (f/500)
+            var h = (g*100)
+            document.write("your total marks is : "+f+"/500"+"<br>")
+            document.write("your total percentage is : "+h+"%"+"<br>")
+            if(h<100 && h>91)
+        {
+            document.write("your grade is A+")
+        }
+        else if(h<91 && h>81){
+            document.write("your grade is A")
+        }
+        else if(h<80 && h>71){
+            document.write("your grade is B+")
+        }
+        else if(h<70 && h>61){
+            document.write("your grade is B")
+        }
+        else if(h<60 && h>51){
+            document.write("your grade is C+")
+        }
+        else if(h<50 && h>41){
+            document.write("your grade is C")
+        }
+        else if(h<40 && h>33){
+            document.write("your grade is D+")
+        }
+        else{
+            document.write("you are failed,better luck next time")
+        }
+
+
+
+        }
+    </script>
+</body>
+</html>
