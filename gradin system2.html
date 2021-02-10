@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grading System</title>
+    <style>
+        #report_card{
+            font-size: 25px;
+            font-family: calibri;
+            padding: 20px;
+            background-color: burlywood;
+            border: 2px solid black;
+            margin: 20px;
+            border-radius: 50px;
+        }
+        span{
+            color: darkblue;
+            font-family: courier new;
+            font-weight: bold;
+        }
+        p{
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="closeTab()">Close Tab</button>
+    <p id="report_card">
+          
+    </p>
+    <button onclick="printReport()">Print</button> <br><br>
+    <!--
+           Student Details
+    -->
+    <input type="text" id="f_name" placeholder="Enter Your First Name">
+    <input type="text" id="l_name" placeholder="Enter Your Last Name"> <br>
+    Class : <select id="cls">
+        <option value="" disabled>Select Your Class</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+    </select> <br>
+    Section : <select id="sec">
+        <option value="" disabled>Enter Your Section</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+    </select> <br>
+    <input type="number" id="roll_no" placeholder="Enter Your Roll No"> <br>
+    <!--/////////////////////////////////////////////////////////////////////////////////////-->
+    <input type="number" id="math" placeholder="Math Marks"> <br>
+    <input type="number" id="sci" placeholder="Science Marks"> <br>
+    <input type="number" id="soc" placeholder="Social Science Marks"> <br>
+    <input type="number" id="eng" placeholder="English Marks"> <br>
+    <input type="number" id="hin" placeholder="Hindi Marks"> <br>
+    <button onclick="showGrade()">Calculate Grade</button>
+    <button onclick="getReportCard()">Report</button>
+
+
+
+    <script>
+                
+        // calculating an showing grade
+        function showGrade() {
+            var fname = document.getElementById("f_name").value
+            var lname = document.getElementById("l_name").value
+            var s_cls = document.getElementById("cls").value
+            var s_sec = document.getElementById("sec").value
+            var roll = document.getElementById("roll_no").value
+            var math = document.getElementById("math").value
+            var science = document.getElementById("sci").value
+            var s_science = document.getElementById("soc").value
+            var english = document.getElementById("eng").value
+            var hindi = document.getElementById("hin").value
+
+            if ((math < 0 && science < 0 && s_science < 0 && english < 0 && hindi < 0) || (math > 100 && science < 100 && s_science < 100 && english < 100 && hindi < 100)) {
+                alert("Marks entered are not valid")
+            }
+            else {
+                var expression = math + "+" + science + "+" + s_science + "+" + english + "+" + hindi
+                var total = eval(expression)
+                var percentage = (total * 100) / 500
+                var grade
+                if (percentage >= 91 && percentage <= 100) {
+                    grade = "A+"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else if (percentage >= 81 && percentage <= 90) {
+                    grade = "A"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else if (percentage >= 71 && percentage <= 80) {
+                    grade = "B+"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else if (percentage >= 61 && percentage <= 70) {
+                    grade = "B"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else if (percentage >= 51 && percentage <= 60) {
+                    grade = "C+"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else if (percentage >= 41 && percentage <= 50) {
+                    grade = "C"
+                    alert(grade)
+                    return grade
+                }
+                else if (percentage >= 33 && percentage <= 40) {
+                    grade = "D"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+                else {
+                    grade = "F"
+                    alert("Grade = "+grade)
+                    return grade
+                }
+            }
+         //var grade = showGrade()
+        }
+        function getReportCard(){
+            var fname = document.getElementById("f_name").value
+            var lname = document.getElementById("l_name").value
+            var s_cls = document.getElementById("cls").value
+            var s_sec = document.getElementById("sec").value
+            var roll = document.getElementById("roll_no").value
+            var math = document.getElementById("math").value
+            var science = document.getElementById("sci").value
+            var s_science = document.getElementById("soc").value
+            var english = document.getElementById("eng").value
+            var hindi = document.getElementById("hin").value
+                var expression = math + "+" + science + "+" + s_science + "+" + english + "+" + hindi
+                var total = eval(expression)
+                var percentage = (total * 100) / 500
+                // var grade = showGrade()
+            document.getElementById("report_card").innerHTML = "Name of the Student : "+fname+" "+lname+"<br>Class : "+s_cls+"th<br>Section : "+s_sec+"<br>Roll No. : "+roll+"<br><br><br><h1>Marks List</h1> <h1>pt 1</h1> <span>Mathematics :</span>"+math+"<br><span>Science : </span>"+science+"<br><span>Social Science : </span>"+s_science+"<br><span>English : </span>"+english+"<br><span>Hindi : </span>"+hindi+"<br><br>Total Marks : 500<br> Marks Obtained : "+total+"<br>Percentage : "+percentage+"%<br>Grade : "+showGrade();
+            
+        }
+        function printReport(){
+            window.print()
+        }
+        function closeTab(){
+            window.close()
+        }
+        
+    </script>
+</body>
+
+</html>
