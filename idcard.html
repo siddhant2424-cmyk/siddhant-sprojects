@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id card generator3</title>
+    <style>
+        .a{
+            height: 500px;
+            width: 330px;
+            background-color: white;
+            border: 2px black solid;
+        }
+        #lan{
+            height: 70px;
+            width: 100%;
+            background-color: blue;
+            font-size: 20px;
+            color: white;
+
+        }
+
+        #leftbox { 
+                float:left;  
+                width:50%; 
+                height:130px; 
+                background-image: url("https://www.schoolmykids.com/smk-media/2017/09/Fr.-Agnel-School-Greater-NOIDA.png");
+                background-size: 165px 130px;
+            } 
+            #middlebox{ 
+                float:left;  
+                background-image: url("https://www.w3schools.com/howto/img_avatar.png");
+                background-size: 165px 130px;
+                width:50%; 
+                height:130px; 
+            } 
+            #rightbox{ 
+                background:blue; 
+                width: 100%; 
+                height: 80px; 
+                margin-top: 130px;
+                text-align: center;
+                color: white;
+            } 
+    </style>
+</head>
+<body>
+    <div class="mana"><p>name pls</p><input type="text"  id="man"> </div>
+   <div class="mana"><p>adress of school (Niscort Father Agnel School A-2 Sector-1 Vaishali Ghaziabad-202012)</p><input type="text"  id="naan"> </div>
+   <div class="mana"><p>class with section</p><input type="text"  id="ligula"> </div>
+   <div class="mana"><p>DOB</p><input type="text"  id="DOB"> </div>
+   <div class="mana"><p>grp no.</p><input type="text"  id="grpno"> </div>
+   <div class="mana"><p>HOUSE ASTER/DADALIYA/BUTTERCUP/CARNATION</p><input type="text"  id="tanatantan"> </div>
+   <div class="mana"><p>blood group</p><input type="text"  id="bg"> </div>
+   <div class="mana"><p>name of father</p><input type="text"  id="father"> </div>
+   <div class="mana"><p>name of mother</p><input type="text"  id="mother"> </div>
+   <div class="mana"><p>your address</p><input type="text"  id="adrus"> </div>
+  <div class="mana"><p>phone number</p><input type="text"  id="phono"> </div>
+  <p>house</p>
+  <select name="test" id="mySelect">
+    <option value="one">CARNATION</option>
+    <option value="two">dahaliya</option>
+    <option value="three">BUTTERCUP</option>
+    <option value="foue">aster</option>
+    </select>
+    
+   <button onclick="print()">click</button>
+<div class="a">
+    <b>
+    <div id="lan">Niscort Father Agnel School A-2 Sector-1 Vaishali Ghaziabad-202012</div>
+    <div id="leftbox"></div>
+    <div id="middlebox"></div>
+    <div id="rightbox"><h1 id="name">siddhant kaushik</h1><h2 id="section">VIII-C</h2></div>
+    <p id="dob">D.O.B : **/**/**** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gr.No.:***
+    <p id="house">house : aster&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blod Grp.: **</p>
+    <p id="fathers">Father : father</p>
+    <p id="mothers">Mother : mother</p>
+    <p id="addres">Address : Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nam!</p>
+    <p id="phonr">Phone : 9392748365</p>
+</b>
+    <script>
+       function print(){
+        var a = (document.getElementById("man").value)
+        document.getElementById("name").innerHTML = a
+        var b = (document.getElementById("naan").value)
+        document.getElementById("lan").innerHTML = b
+        var c = (document.getElementById("ligula").value)
+        document.getElementById("section").innerHTML = c
+        var D = (document.getElementById("DOB").value)
+        var f = (document.getElementById("grpno").value)
+        document.getElementById("dob").innerHTML = "D.O.B : "+D+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gr.No.:"+f
+        var ta = (document.getElementById("tanatantan").value)
+        var la = (document.getElementById("bg").value)
+        document.getElementById("house").innerHTML = "house : "+ta+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Blod Grp.:"+la
+        var pa = (document.getElementById("father").value)
+        document.getElementById("fathers").innerHTML ="father : "+pa
+        var ma = (document.getElementById("mother").value)
+        document.getElementById("mothers").innerHTML = "Mother : "+ma
+        var ya = (document.getElementById("adrus").value)
+        document.getElementById("addres").innerHTML = "Address : "+ya
+        var uaa = (document.getElementById("phono").value)
+        document.getElementById("phonr").innerHTML = "Phone :"+uaa
+        var x = document.getElementById("mySelect").value;
+    if(x == "two"){
+            document.getElementById("rightbox").style.backgroundColor = "orange";
+            document.getElementById("lan").style.backgroundColor = "orange";
+            document.getElementById("house").innerHTML = "house : dahaliya &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blood Grp.:"+la
+         } else  if(x == "one"){
+            document.getElementById("rightbox").style.backgroundColor = "red";
+            document.getElementById("lan").style.backgroundColor = "red";
+            document.getElementById("house").innerHTML = "house : carnation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blood Grp.:"+la
+          } else  if(x == "three"){
+            document.getElementById("rightbox").style.backgroundColor = "yellow";
+            document.getElementById("lan").style.backgroundColor = "yellow";
+            document.getElementById("house").innerHTML = "house : buttercup &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blood Grp.:"+la
+            
+          }else {
+            document.getElementById("rightbox").style.backgroundColor = "blue";
+            document.getElementById("lan").style.backgroundColor = "blue";
+            document.getElementById("house").innerHTML = "house : aster &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blood Grp.:"+la
+            
+          }
+          
+       }
+
+    </script>
+</div>
+    
+</body>
+</html>
