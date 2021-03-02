@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date()</title>
+    <style>
+        #red{
+            margin-left: 5%;
+            font-size: 900%;
+            height: 200px;
+            width: 90%;
+            border: 3px solid black;
+            border-radius: 20px ;
+        }
+        #hi{
+            margin-left: 5%;
+            font-size: 900%;
+            height: 200px;
+            width: 90%;
+            border: 3px solid black;
+            border-radius: 20px ;
+        }
+    </style>
+</head>
+<body onLoad="JavaScript:timeRefresh(0001);">
+    <div id="hi"></div><br><br><br>
+    <div id="red"></div>
+  <script>
+      
+      var d = new Date()
+      var aud = new Audio()
+      var arre = new Array()
+      var hou = d.getHours()
+      var min = d.getMinutes()
+      var sec = d.getSeconds()
+      var minsec = d.getMilliseconds()
+      var mont = d.getMonth()+1
+      var year = d.getFullYear()
+      var day = d.getDay()
+      var dete = d.getDate()
+      if(hou>12)
+        {
+            var l = ("am")
+        }
+        else{
+            var l = ("pm")
+        }
+        if(sec<10)
+        {
+            var sec = ("0"+sec)
+        }
+        else{
+            var sec = (sec)
+        }
+      function timeRefresh(timeoutPeriod) {
+            setTimeout("location.reload(true);", timeoutPeriod);
+      }
+        document.getElementById("red").innerHTML = +hou+": "+min+": "+sec+": "+minsec+l
+        document.getElementById("hi").innerHTML = ""+day+"/"+mont+"/"+year+"<br>"
+
+
+
+  </script>  
+</body>
+</html>
