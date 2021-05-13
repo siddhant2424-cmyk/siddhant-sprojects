@@ -1,0 +1,2392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="periodic table.css">
+    <script type="text/javascript" src="periodic table.js"></script>
+    <script type="text/javascript" src="periodics tablw.js"></script>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/inknut/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <title>Periodic Table</title>
+  </head>
+  <body>
+    <div class="text-center">
+      <br>
+      <h1>Periodic table of elements</h1>
+      <br>
+    </div>
+      <div class="col-xl-12">
+      <!-- Period 1 -->
+      <div class="period1">
+        <div class="grid-container">
+          <div class="grid-item">
+            <div class="s" onmouseover="showH();" onmouseout="hideH();">
+              <div class="no">1</div>
+              <div class="symbol">H</div>
+              <p>Hydrogen</p></div>
+              <div class="form" id="h">
+              <h1>1<br>H<br>Hydrogen</h1>
+              <hr>
+              <h6><strong>Chemical Group Block: </strong>Nonmetal</h6>
+              <h6><strong>Standard State:</strong> Gas</h6>
+              <h6><strong>Atomic Mass:</strong>  1.0080 u</h6>
+              <h6><strong>Electron Configuration: </strong>1s<sup>1</sup></h6>
+              <h6><strong>Oxidation States:</strong> +1, -1</h6>
+              <h6><strong>Atomic Radius: </strong> 120pm</h6>
+              <h6><strong>Ionization Energy: </strong> 13.598 eV</h6>
+              <h6><strong>Electron Affinity: </strong> 0.754 eV</h6>
+              <h6><strong>Melting Point: </strong> 13.81 K</h6>
+              <h6><strong>Boiling Point: </strong>  20.28 K</h6>
+              <h6><strong>Density: </strong> 0.00008988 g/cm<sup>3</sup></h6>
+              <h6><strong>Year Discovered: </strong>  1766</h6>
+            </div>
+          </div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item" id="clear" onclick="Clear()">Clear All</div>
+          <div class="grid-item" ><div class="s" onmouseover="showHe();" onmouseout="hideHe();">
+            <div class="no">2</div>
+            <div class="symbol">He</div>
+            <p>Helium</p></div>
+            <div class="form" id="he">
+            <h1>2<br>He<br>Helium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong> Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  4.00260 u</h6>
+            <h6><strong>Electron Configuration: </strong>1s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 140pm</h6>
+            <h6><strong>Ionization Energy: </strong> 24.587 eV</h6>
+            <h6><strong>Melting Point: </strong> 0.95 K</h6>
+            <h6><strong>Boiling Point: </strong>  4.22 K</h6>
+            <h6><strong>Density: </strong> 0.0001785 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1868 </h6>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 2 -->
+      <div class="period2">
+        <div class="grid-container">
+          <div class="grid-item" ><div class="s" onmouseover="showLi();" onmouseout="hideLi();">
+            <div class="no">3</div>
+            <div class="symbol">Li</div>
+            <p>Lithium</p></div>
+            <div class="form" id="li">
+            <h1>3<br>Li<br>Lithium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong> Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  7.0 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 182pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.392 eV</h6>
+            <h6><strong>Melting Point: </strong> 453.65 K</h6>
+            <h6><strong>Boiling Point: </strong>  1615 K</h6>
+            <h6><strong>Density: </strong> 0.534 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1817 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="s" onmouseover="showBe();" onmouseout="hideBe();">
+            <div class="no">4</div>
+            <div class="symbol">Be</div>
+            <p>Beryllium</p></div>
+            <div class="form" id="be">
+            <h1>4<br>Be<br>Beryllium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong> Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  9.012183 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 153 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.323 eV</h6>
+            <h6><strong>Melting Point: </strong> 1560 K</h6>
+            <h6><strong>Boiling Point: </strong>  2744 K</h6>
+            <h6><strong>Density: </strong> 1.85 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1798 </h6>
+          </div>
+          </div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1" id="sblock" onClick="sBlock()"><div class="no">s</div>
+            <div class="symbol">Block</div></div>
+          <div class="grid-item1" id="pblock" onClick="pBlock()"><div class="no">p</div>
+            <div class="symbol">Block</div></div>
+          <div class="grid-item1" id="dblock" onClick="dBlock()"><div class="no">d</div>
+            <div class="symbol">Block</div></div>
+          <div class="grid-item1" id="fblock" onClick="fBlock()"><div class="no">f</div>
+            <div class="symbol">Block</div></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item" ><div class="p" onmouseover="showB();" onmouseout="hideB();">
+            <div class="no">5</div>
+            <div class="symbol">B</div>
+            <p>Boron</p></div>
+            <div class="form" id="b">
+            <h1>5<br>B<br>Boron</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong> Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  10.81 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 192 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.298 eV</h6>
+            <h6><strong>Melting Point: </strong> 2348 K</h6>
+            <h6><strong>Boiling Point: </strong>  4273 K</h6>
+            <h6><strong>Density: </strong> 2.37 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1808 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showC();" onmouseout="hideC();">
+            <div class="no">6</div>
+            <div class="symbol">C</div>
+            <p>Carbon</p></div>
+            <div class="form" id="c">
+            <h1>6<br>C<br>Carbon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong> Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  12.011 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2, -4</h6>
+            <h6><strong>Atomic Radius: </strong> 170 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 11.260 eV</h6>
+            <h6><strong>Melting Point: </strong> 3823 K</h6>
+            <h6><strong>Boiling Point: </strong>  4098 K</h6>
+            <h6><strong>Density: </strong> 2.2670 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showN();" onmouseout="hideN();">
+            <div class="no">7</div>
+            <div class="symbol">N</div>
+            <p>Nitrogen</p></div>
+            <div class="form" id="n">
+            <h1>7<br>N<br>Nitrogen</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong> Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  14.007 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +4, +3, +2, +1, -1, -2, -3</h6>
+            <h6><strong>Atomic Radius: </strong> 155 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 14.534 eV</h6>
+            <h6><strong>Melting Point: </strong> 63.15 K</h6>
+            <h6><strong>Boiling Point: </strong>  77.36 K</h6>
+            <h6><strong>Density: </strong> 0.0012506 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1772 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showO();" onmouseout="hideO();">
+            <div class="no">8</div>
+            <div class="symbol">O</div>
+            <p>Oxygen</p></div>
+            <div class="form" id="o">
+            <h1>8<br>O<br>Oxygen</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong> Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  15.999 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> -2</h6>
+            <h6><strong>Atomic Radius: </strong> 152 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 13.618 eV</h6>
+            <h6><strong>Melting Point: </strong> 54.36 K</h6>
+            <h6><strong>Boiling Point: </strong>  90.2 K</h6>
+            <h6><strong>Density: </strong> 0.001429 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1774 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showF();" onmouseout="hideF();">
+            <div class="no">9</div>
+            <div class="symbol">F</div>
+            <p>Fluorine</p></div>
+            <div class="form" id="f">
+            <h1>9<br>F<br>Fluorine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong> Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  18.99840316 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> -1</h6>
+            <h6><strong>Atomic Radius: </strong> 135 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 17.423 eV</h6>
+            <h6><strong>Melting Point: </strong> 53.53 K</h6>
+            <h6><strong>Boiling Point: </strong>  85.03 K</h6>
+            <h6><strong>Density: </strong> 0.001696 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1670 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showNe();" onmouseout="hideNe();">
+            <div class="no">10</div>
+            <div class="symbol">Ne</div>
+            <p>Neon</p></div>
+            <div class="form" id="ne">
+            <h1>10<br>Ne<br>Neon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong> Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  20.180 u</h6>
+            <h6><strong>Electron Configuration: </strong>[He]2s<sup>2</sup>2p<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 154 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 21.565 eV</h6>
+            <h6><strong>Melting Point: </strong> 24.56 K</h6>
+            <h6><strong>Boiling Point: </strong>  27.07 K</h6>
+            <h6><strong>Density: </strong> 0.0008999 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1898 </h6>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 3 -->
+      <div class="period3">
+        <div class="grid-container">
+          <div class="grid-item"> <div class="s" onmouseover="showNa();" onmouseout="hideNa();">
+            <div class="no">11</div>
+            <div class="symbol">Na</div>
+            <p>Sodium</p></div>
+            <div class="form" id="na">
+            <h1>11<br>Na<br>Sodium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  22.9897693 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 227 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.139 eV</h6>
+            <h6><strong>Melting Point: </strong> 370.95 K</h6>
+            <h6><strong>Boiling Point: </strong>  1156 K</h6>
+            <h6><strong>Density: </strong> 0.97 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1807 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="s" onmouseover="showMg();" onmouseout="hideMg();">
+            <div class="no">12</div>
+            <div class="symbol">Mg</div>
+            <p>Magnesium</p></div>
+            <div class="form" id="mg">
+            <h1>12<br>Mg<br>Magnesium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  24.305 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 173 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.646 eV</h6>
+            <h6><strong>Melting Point: </strong> 923 K</h6>
+            <h6><strong>Boiling Point: </strong>  1363 K</h6>
+            <h6><strong>Density: </strong> 1.74 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1808 </h6>
+          </div>
+          </div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item" ><div class="p" onmouseover="showAl();" onmouseout="hideAl();">
+            <div class="no">13</div>
+            <div class="symbol">Al</div>
+            <p>Aluminum</p></div>
+            <div class="form" id="al">
+            <h1>13<br>Al<br>Aluminum</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  26.981538 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 184 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.986 eV</h6>
+            <h6><strong>Melting Point: </strong> 933.437 K</h6>
+            <h6><strong>Boiling Point: </strong>  2792 K</h6>
+            <h6><strong>Density: </strong> 2.70 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showSi();" onmouseout="hideSi();">
+            <div class="no">14</div>
+            <div class="symbol">Si</div>
+            <p>Silicon</p></div>
+            <div class="form" id="si">
+            <h1>14<br>Si<br>Silicon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  28.085 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2, -4</h6>
+            <h6><strong>Atomic Radius: </strong> 210 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.152 eV</h6>
+            <h6><strong>Melting Point: </strong> 1687 K</h6>
+            <h6><strong>Boiling Point: </strong>  3538 K</h6>
+            <h6><strong>Density: </strong> 2.3296 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1854 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showP();" onmouseout="hideP();">
+            <div class="no">15</div>
+            <div class="symbol">P</div>
+            <p>Phosphorus</p></div>
+            <div class="form" id="p">
+            <h1>15<br>P<br>Phosphorus</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 30.97376200 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +3, -3</h6>
+            <h6><strong>Atomic Radius: </strong> 180 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 10.487 eV</h6>
+            <h6><strong>Melting Point: </strong> 317.3 K</h6>
+            <h6><strong>Boiling Point: </strong>  553.65 K</h6>
+            <h6><strong>Density: </strong> 1.82 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1669 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showS();" onmouseout="hideS();">
+            <div class="no">16</div>
+            <div class="symbol">S</div>
+            <p>Sulfur</p></div>
+            <div class="form" id="s">
+            <h1>16<br>S<br>Sulfur</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  32.07 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +4, -2</h6>
+            <h6><strong>Atomic Radius: </strong> 180 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 10.360 eV</h6>
+            <h6><strong>Melting Point: </strong> 388.36 K</h6>
+            <h6><strong>Boiling Point: </strong>  717.75 K</h6>
+            <h6><strong>Density: </strong> 2.067 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showCl();" onmouseout="hideCl();">
+            <div class="no">17</div>
+            <div class="symbol">Cl</div>
+            <p>Chlorine</p></div>
+            <div class="form" id="cl">
+            <h1>17<br>Cl<br>Chlorine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong>Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  35.45 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +7, +5, +1, -1</h6>
+            <h6><strong>Atomic Radius: </strong> 175 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 12.968 eV</h6>
+            <h6><strong>Melting Point: </strong> 171.65 K</h6>
+            <h6><strong>Boiling Point: </strong>  239.11 K</h6>
+            <h6><strong>Density: </strong> 0.003214 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1774 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showAr();" onmouseout="hideAr();">
+            <div class="no">18</div>
+            <div class="symbol">Ar</div>
+            <p>Argon</p></div>
+            <div class="form" id="ar">
+            <h1>18<br>Ar<br>Argon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong>Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  39.9 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ne]3s<sup>2</sup>3p<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 188 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 15.760 eV</h6>
+            <h6><strong>Melting Point: </strong> 83.8 K</h6>
+            <h6><strong>Boiling Point: </strong>  87.3 K</h6>
+            <h6><strong>Density: </strong> 0.0017837 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1894 </h6>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 4 -->
+      <div class="period4">
+        <div class="grid-container">
+          <div class="grid-item"> <div class="s" onmouseover="showK();" onmouseout="hideK();">
+            <div class="no">19</div>
+            <div class="symbol">K</div>
+            <p>Potassium</p></div>
+            <div class="form" id="k">
+            <h1>19<br>K<br>Potassium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  39.098 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 275 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 4.341 eV</h6>
+            <h6><strong>Melting Point: </strong> 336.53 K</h6>
+            <h6><strong>Boiling Point: </strong>  1032 K</h6>
+            <h6><strong>Density: </strong> 0.89 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1807 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="s" onmouseover="showCa();" onmouseout="hideCa();">
+            <div class="no">20</div>
+            <div class="symbol">Ca</div>
+            <p>Calcium</p></div>
+            <div class="form" id="ca">
+            <h1>20<br>Ca<br>Calcium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  40.08 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 231 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.113 eV</h6>
+            <h6><strong>Melting Point: </strong> 1115 K</h6>
+            <h6><strong>Boiling Point: </strong>  1757 K</h6>
+            <h6><strong>Density: </strong> 1.54 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showSc();" onmouseout="hideSc();">
+            <div class="no">21</div>
+            <div class="symbol">Sc</div>
+            <p>Scandium</p></div>
+            <div class="form" id="sc">
+            <h1>21<br>Sc<br>Scandium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  44.95591 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 211 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.561 eV</h6>
+            <h6><strong>Melting Point: </strong> 1814 K</h6>
+            <h6><strong>Boiling Point: </strong>  3109 K</h6>
+            <h6><strong>Density: </strong> 2.99 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1879 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showTi();" onmouseout="hideTi();" >
+            <div class="no">22</div>
+            <div class="symbol">Ti</div>
+            <p>Titanium</p></div>
+            <div class="form" id="ti">
+            <h1>22<br>Ti<br>Titanium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  47.87 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 187 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.828 eV</h6>
+            <h6><strong>Melting Point: </strong> 1941 K</h6>
+            <h6><strong>Boiling Point: </strong> 3560 K</h6>
+            <h6><strong>Density: </strong> 4.5 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1791 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showV();" onmouseout="hideV();">
+            <div class="no">23</div>
+            <div class="symbol">V</div>
+            <p>Vanadium</p></div>
+            <div class="form" id="v">
+            <h1>23<br>V<br>Vanadium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  50.941 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +4, +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 179 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.746 eV</h6>
+            <h6><strong>Melting Point: </strong> 2183 K</h6>
+            <h6><strong>Boiling Point: </strong>  3680 K</h6>
+            <h6><strong>Density: </strong> 6.0 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1801 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showCr();" onmouseout="hideCr();">
+            <div class="no">24</div>
+            <div class="symbol">Cr</div>
+            <p>Chromium</p></div>
+            <div class="form" id="cr">
+            <h1>24<br>Cr<br>Chromium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  51.996 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]3d<sup>5</sup>4s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 189 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.767 eV</h6>
+            <h6><strong>Melting Point: </strong> 2180 K</h6>
+            <h6><strong>Boiling Point: </strong>  2944 K</h6>
+            <h6><strong>Density: </strong> 7.15 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1797 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showMn();" onmouseout="hideMn();">
+            <div class="no">25</div>
+            <div class="symbol">Mn</div>
+            <p>Manganese</p></div>
+            <div class="form1" id="mn">
+            <h1>25<br>Mn<br>Manganese</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  54.93804 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +7, +4, +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 197 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.434 eV</h6>
+            <h6><strong>Melting Point: </strong> 1519 K</h6>
+            <h6><strong>Boiling Point: </strong>  2334 K</h6>
+            <h6><strong>Density: </strong> 7.3 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1774 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showFe();" onmouseout="hideFe();">
+            <div class="no">26</div>
+            <div class="symbol">Fe</div>
+            <p>Iron</p></div>
+            <div class="form1" id="fe">
+            <h1>26<br>Fe<br>Iron</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  55.84 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 194 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.902 eV</h6>
+            <h6><strong>Melting Point: </strong> 1811 K</h6>
+            <h6><strong>Boiling Point: </strong>  3134 K</h6>
+            <h6><strong>Density: </strong> 7.874 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showCo();" onmouseout="hideCo();">
+            <div class="no">27</div>
+            <div class="symbol">Co</div>
+            <p>Cobalt</p></div>
+            <div class="form1" id="co">
+            <h1>27<br>Co<br>Cobalt</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  58.93319 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>7</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 192 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.881 eV</h6>
+            <h6><strong>Melting Point: </strong> 1768 K</h6>
+            <h6><strong>Boiling Point: </strong>  3200 K</h6>
+            <h6><strong>Density: </strong> 8.86 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1735 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showNi();" onmouseout="hideNi();">
+            <div class="no">28</div>
+            <div class="symbol">Ni</div>
+            <p>Nickel</p></div>
+            <div class="form1" id="ni">
+            <h1>28<br>Ni<br>Nickel</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  58.693 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>8</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 163 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.640 eV</h6>
+            <h6><strong>Melting Point: </strong> 1728 K</h6>
+            <h6><strong>Boiling Point: </strong> 3186 K</h6>
+            <h6><strong>Density: </strong> 8.912 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1751 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showCu();" onmouseout="hideCu();">
+            <div class="no">29</div>
+            <div class="symbol">Cu</div>
+            <p>Copper</p></div>
+            <div class="form1" id="cu">
+            <h1>29<br>Cu<br>Copper</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  63.55 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>1</sup>3d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2, +1</h6>
+            <h6><strong>Atomic Radius: </strong> 140 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.726 eV</h6>
+            <h6><strong>Melting Point: </strong> 1357.77 K</h6>
+            <h6><strong>Boiling Point: </strong>  2835 K</h6>
+            <h6><strong>Density: </strong> 8.933 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showZn();" onmouseout="hideZn();">
+            <div class="no">30</div>
+            <div class="symbol">Zn</div>
+            <p>Zinc</p></div>
+            <div class="form1" id="zn">
+            <h1>30<br>Zn<br>Zinc</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  65.4 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 139 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.394 eV</h6>
+            <h6><strong>Melting Point: </strong> 692.68 K</h6>
+            <h6><strong>Boiling Point: </strong>  1180 K</h6>
+            <h6><strong>Density: </strong> 7.134 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1746 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showGa();" onmouseout="hideGa();">
+            <div class="no">31</div>
+            <div class="symbol">Ga</div>
+            <p>Gallium</p></div>
+            <div class="form" id="ga">
+            <h1>31<br>Ga<br>Gallium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  69.72 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 187 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.999 eV</h6>
+            <h6><strong>Melting Point: </strong> 302.91 K</h6>
+            <h6><strong>Boiling Point: </strong>  2477 K</h6>
+            <h6><strong>Density: </strong> 5.91 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1875 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showGe();" onmouseout="hideGe();">
+            <div class="no">32</div>
+            <div class="symbol">Ge</div>
+            <p>Germanium</p></div>
+            <div class="form" id="ge">
+            <h1>32<br>Ge<br>Germanium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  72.63 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 211 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.900 eV</h6>
+            <h6><strong>Melting Point: </strong> 1211.4 K</h6>
+            <h6><strong>Boiling Point: </strong>  3106 K</h6>
+            <h6><strong>Density: </strong> 5.323 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1886 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showAs();" onmouseout="hideAs();">
+            <div class="no">33</div>
+            <div class="symbol">As</div>
+            <p>Arsenic</p></div>
+            <div class="form" id="as">
+            <h1>33<br>As<br>Arsenic</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  74.92159 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +3, -3</h6>
+            <h6><strong>Atomic Radius: </strong> 185 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.815 eV</h6>
+            <h6><strong>Melting Point: </strong> 1090 K</h6>
+            <h6><strong>Boiling Point: </strong>  887 K</h6>
+            <h6><strong>Density: </strong> 5.776 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showSe();" onmouseout="hideSe();">
+            <div class="no">34</div>
+            <div class="symbol">Se</div>
+            <p>Selenium</p></div>
+            <div class="form" id="se">
+            <h1>34<br>Se<br>Selenium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Nonmetal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  78.97 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +4, -2</h6>
+            <h6><strong>Atomic Radius: </strong> 190 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.752 eV</h6>
+            <h6><strong>Melting Point: </strong> 493.65 K</h6>
+            <h6><strong>Boiling Point: </strong>  958 K</h6>
+            <h6><strong>Density: </strong> 4.809 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1817 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showBr();" onmouseout="hideBr();">
+            <div class="no">35</div>
+            <div class="symbol">Br</div>
+            <p>Bromine</p></div>
+            <div class="form" id="br">
+            <h1>35<br>Br<br>Bromine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong>Liquid</h6>
+            <h6><strong>Atomic Mass:</strong>  79.90 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +1, -1</h6>
+            <h6><strong>Atomic Radius: </strong> 183 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 11.814 eV</h6>
+            <h6><strong>Melting Point: </strong> 265.95 K</h6>
+            <h6><strong>Boiling Point: </strong>  331.95 K</h6>
+            <h6><strong>Density: </strong> 3.11 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1826 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showKr();" onmouseout="hideKr();">
+            <div class="no">36</div>
+            <div class="symbol">Kr</div>
+            <p>Krypton</p></div>
+            <div class="form" id="kr">
+            <h1>36<br>Kr<br>Krypton</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong>Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  83.80 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 202 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 14.000 eV</h6>
+            <h6><strong>Melting Point: </strong> 115.79 K</h6>
+            <h6><strong>Boiling Point: </strong>  119.93 K</h6>
+            <h6><strong>Density: </strong> 0.003733 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1898 </h6>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 5 -->
+      <div class="period5">
+        <div class="grid-container">
+          <div class="grid-item"> <div class="s" onmouseover="showRb();" onmouseout="hideRb();">
+            <div class="no">37</div>
+            <div class="symbol">Rb</div>
+            <p>Rubidium</p></div>
+            <div class="form" id="rb">
+            <h1>37<br>Rb<br>Rubidium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  85.468 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 303 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 4.177 eV</h6>
+            <h6><strong>Melting Point: </strong> 312.46 K</h6>
+            <h6><strong>Boiling Point: </strong>  961 K</h6>
+            <h6><strong>Density: </strong> 1.53 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1861 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="s" onmouseover="showSr();" onmouseout="hideSr();">
+            <div class="no">38</div>
+            <div class="symbol">Sr</div>
+            <p>Srontium</p></div>
+            <div class="form" id="sr">
+            <h1>38<br>Sr<br>Strontium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  87.6 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 249 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.695 eV</h6>
+            <h6><strong>Melting Point: </strong> 1050 K</h6>
+            <h6><strong>Boiling Point: </strong>  1655 K</h6>
+            <h6><strong>Density: </strong> 2.64 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1790 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showY();" onmouseout="hideY();">
+            <div class="no">39</div>
+            <div class="symbol">Y</div>
+            <p>Yttrium</p></div>
+            <div class="form" id="y">
+            <h1>39<br>Y<br>Yttrium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  88.9058 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 219 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.217 eV</h6>
+            <h6><strong>Melting Point: </strong> 1795 K</h6>
+            <h6><strong>Boiling Point: </strong>  3618 K</h6>
+            <h6><strong>Density: </strong> 4.47 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1794 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showZr();" onmouseout="hideZr();">
+            <div class="no">40</div>
+            <div class="symbol">Zr</div>
+            <p>Zirconium</p></div>
+            <div class="form" id="zr">
+            <h1>40<br>Zr<br>Zirconium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  91.22 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4</h6>
+            <h6><strong>Atomic Radius: </strong> 186 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.634 eV</h6>
+            <h6><strong>Melting Point: </strong> 2128 K</h6>
+            <h6><strong>Boiling Point: </strong>  4682 K</h6>
+            <h6><strong>Density: </strong> 6.52 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1789 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showNb();" onmouseout="hideNb();">
+            <div class="no">41</div>
+            <div class="symbol">Nb</div>
+            <p>Niobium</p></div>
+            <div class="form" id="nb">
+            <h1>41<br>Nb<br>Niobium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  92.9064 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup>4d<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 207 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.759 eV</h6>
+            <h6><strong>Melting Point: </strong> 2750 K</h6>
+            <h6><strong>Boiling Point: </strong>  5017 K</h6>
+            <h6><strong>Density: </strong> 8.57 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1801 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showMo();" onmouseout="hideMo();">
+            <div class="no">42</div>
+            <div class="symbol">Mo</div>
+            <p>Molybdenum</p></div>
+            <div class="form" id="mo">
+            <h1>42<br>Mo<br>Molybdenum</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  96.0 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup>4d<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6</h6>
+            <h6><strong>Atomic Radius: </strong> 209 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.092 eV</h6>
+            <h6><strong>Melting Point: </strong> 2896 K</h6>
+            <h6><strong>Boiling Point: </strong>  4912 K</h6>
+            <h6><strong>Density: </strong> 10.2 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1778 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showTc();" onmouseout="hideTc();">
+            <div class="no">43</div>
+            <div class="symbol">Tc</div>
+            <p>Technetium</p></div>
+            <div class="form1" id="tc">
+            <h1>43<br>Tc<br>Technetium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  97.90721 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +7, +6, +4</h6>
+            <h6><strong>Atomic Radius: </strong> 209 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.28 eV</h6>
+            <h6><strong>Melting Point: </strong> 2430 K</h6>
+            <h6><strong>Boiling Point: </strong>  4538 K</h6>
+            <h6><strong>Density: </strong> 11 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1937 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showRu();" onmouseout="hideRu();">
+            <div class="no">44</div>
+            <div class="symbol">Ru</div>
+            <p>Ruthenium</p></div>
+            <div class="form1" id="ru">
+            <h1>44<br>Ru<br>Ruthenium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  101.1 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup>4d<sup>7</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 207 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.361 eV</h6>
+            <h6><strong>Melting Point: </strong> 2607 K</h6>
+            <h6><strong>Boiling Point: </strong>  4423 K</h6>
+            <h6><strong>Density: </strong> 12.1 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1827 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showRh();" onmouseout="hideRh();">
+            <div class="no">45</div>
+            <div class="symbol">Rh</div>
+            <p>Rhodium</p></div>
+            <div class="form1" id="rh">
+            <h1>45<br>Rh<br>Rhodium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 102.9055 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup>4d<sup>8</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong>195 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.459 eV</h6>
+            <h6><strong>Melting Point: </strong> 2237 K</h6>
+            <h6><strong>Boiling Point: </strong>  3968 K</h6>
+            <h6><strong>Density: </strong> 12.4 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1803 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showPd();" onmouseout="hidePd();">
+            <div class="no">46</div>
+            <div class="symbol">Pd</div>
+            <p>Palladium</p></div>
+            <div class="form1" id="pd">
+            <h1>46<br>Pd<br>Palladium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  106.4 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]4d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 202 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.337 eV</h6>
+            <h6><strong>Melting Point: </strong> 1828.05 K</h6>
+            <h6><strong>Boiling Point: </strong>  3236 K</h6>
+            <h6><strong>Density: </strong> 12.0 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1803 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showAg();" onmouseout="hideAg();">
+            <div class="no">47</div>
+            <div class="symbol">Ag</div>
+            <p>Silver</p></div>
+            <div class="form1" id="ag">
+            <h1>47<br>Ag<br>Silver</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 107.868 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>1</sup>4d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 172 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.576 eV</h6>
+            <h6><strong>Melting Point: </strong> 1234.93 K</h6>
+            <h6><strong>Boiling Point: </strong>  2435 K</h6>
+            <h6><strong>Density: </strong> 10.501 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showCd();" onmouseout="hideCd();">
+            <div class="no">48</div>
+            <div class="symbol">Cd</div>
+            <p>Cadmium</p></div>
+            <div class="form1" id="cd">
+            <h1>48<br>Cd<br>Cadmium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  112.41 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 158 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.994 eV</h6>
+            <h6><strong>Melting Point: </strong> 594.22 K</h6>
+            <h6><strong>Boiling Point: </strong>  1040 K</h6>
+            <h6><strong>Density: </strong> 8.69 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1817 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showInd();" onmouseout="hideInd();">
+            <div class="no">49</div>
+            <div class="symbol">In</div>
+            <p>Indium</p></div>
+            <div class="form" id="ind">
+            <h1>49<br>In<br>Indium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  114.82 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 193 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.786 eV</h6>
+            <h6><strong>Melting Point: </strong> 429.75 K</h6>
+            <h6><strong>Boiling Point: </strong>  2345 K</h6>
+            <h6><strong>Density: </strong> 7.31 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1863 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showSn();" onmouseout="hideSn();">
+            <div class="no">50</div>
+            <div class="symbol">Sn</div>
+            <p>Tin</p></div>
+            <div class="form" id="sn">
+            <h1>50<br>Sn<br>Tin</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  118.71 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 217 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.344 eV</h6>
+            <h6><strong>Melting Point: </strong> 505.08 K</h6>
+            <h6><strong>Boiling Point: </strong>  2875 K</h6>
+            <h6><strong>Density: </strong> 7.287 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showSb();" onmouseout="hideSb();">
+            <div class="no">51</div>
+            <div class="symbol">Sb</div>
+            <p>Antimony</p></div>
+            <div class="form" id="sb">
+            <h1>51<br>Sb<br>Antimony</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  121.76 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +3, -3</h6>
+            <h6><strong>Atomic Radius: </strong> 206 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.64 eV</h6>
+            <h6><strong>Melting Point: </strong> 903.78 K</h6>
+            <h6><strong>Boiling Point: </strong>  1860 K</h6>
+            <h6><strong>Density: </strong> 6.685 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showTe();" onmouseout="hideTe();">
+            <div class="no">52</div>
+            <div class="symbol">Te</div>
+            <p>Tellurium</p></div>
+            <div class="form" id="te">
+            <h1>52<br>Te<br>Tellurium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  127.6 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +4, -2</h6>
+            <h6><strong>Atomic Radius: </strong> 206 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.010 eV</h6>
+            <h6><strong>Melting Point: </strong> 722.66 K</h6>
+            <h6><strong>Boiling Point: </strong>  1261 K</h6>
+            <h6><strong>Density: </strong> 6.232 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1782 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showI();" onmouseout="hideI();">
+            <div class="no">53</div>
+            <div class="symbol">I</div>
+            <p>Iodine</p></div>
+            <div class="form" id="i">
+            <h1>53<br>I<br>Iodine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  126.9045 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +7, +5, +1, -1</h6>
+            <h6><strong>Atomic Radius: </strong> 198 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 10.451 eV</h6>
+            <h6><strong>Melting Point: </strong> 386.85 K</h6>
+            <h6><strong>Boiling Point: </strong>  457.55 K</h6>
+            <h6><strong>Density: </strong> 4.93 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1811 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showXe();" onmouseout="hideXe();">
+            <div class="no">54</div>
+            <div class="symbol">Xe</div>
+            <p>Xenon</p>
+            <div class="form" id="xe">
+            <h1>54<br>Xe<br>Xenon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong>Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  131.29 u</h6>
+            <h6><strong>Electron Configuration: </strong>[kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 216 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 12.130 eV</h6>
+            <h6><strong>Melting Point: </strong> 161.36 K</h6>
+            <h6><strong>Boiling Point: </strong>  165.03 K</h6>
+            <h6><strong>Density: </strong> 0.005887 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1898 </h6>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 6 -->
+      <div class="period6">
+        <div class="grid-container">
+          <div class="grid-item" ><div class="s" onmouseover="showCs();" onmouseout="hideCs();">
+            <div class="no">55</div>
+            <div class="symbol">Cs</div>
+            <p>Caesium</p></div>
+            <div class="form" id="cs">
+            <h1>55<br>Cs<br>Cesium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  132.9054520 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 343 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 3.894 eV</h6>
+            <h6><strong>Melting Point: </strong> 301.59 K</h6>
+            <h6><strong>Boiling Point: </strong>  944 K</h6>
+            <h6><strong>Density: </strong> 1.93 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1860 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="s" onmouseover="showBa();" onmouseout="hideBa();">
+            <div class="no">56</div>
+            <div class="symbol">Ba</div>
+            <p>Barium</p></div>
+            <div class="form" id="ba">
+            <h1>56<br>Ba<br>Barium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  137.33 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 268 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.212 eV</h6>
+            <h6><strong>Melting Point: </strong> 1000 K</h6>
+            <h6><strong>Boiling Point: </strong>  2170 K</h6>
+            <h6><strong>Density: </strong> 3.62 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1808 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showLa();" onmouseout="hideLa();">
+            <div class="no">57</div>
+            <div class="symbol">La</div>
+            <p>Lanthanum</p></div>
+            <div class="form" id="la">
+            <h1>57<br>La<br>Lanthanum</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  138.9055 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>5d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 240 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.577 eV</h6>
+            <h6><strong>Melting Point: </strong> 1191 K</h6>
+            <h6><strong>Boiling Point: </strong>  3737 K</h6>
+            <h6><strong>Density: </strong> 6.15 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1839 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showHf();" onmouseout="hideHf();">
+            <div class="no">72</div>
+            <div class="symbol">Hf</div>
+            <p>Hafnium</p></div>
+            <div class="form" id="hf">
+            <h1>72<br>Hf<br>Hafnium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  178.5 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</syp>5d<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4</h6>
+            <h6><strong>Atomic Radius: </strong> 212 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.825 eV</h6>
+            <h6><strong>Melting Point: </strong> 2506 K</h6>
+            <h6><strong>Boiling Point: </strong>  4876 K</h6>
+            <h6><strong>Density: </strong> 13.3 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1923 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showTa();" onmouseout="hideTa();">
+            <div class="no">73</div>
+            <div class="symbol">Ta</div>
+            <p>Tantalum</p></div>
+            <div class="form" id="ta">
+            <h1>73<br>Ta<br>Tantalum</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  180.9479 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5</h6>
+            <h6><strong>Atomic Radius: </strong> 217 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.89 eV</h6>
+            <h6><strong>Melting Point: </strong> 3290 K</h6>
+            <h6><strong>Boiling Point: </strong>  5731 K</h6>
+            <h6><strong>Density: </strong> 16.4 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1802 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showW();" onmouseout="hideW();">
+            <div class="no">74</div>
+            <div class="symbol">W</div>
+            <p>Tungsten</p></div>
+            <div class="form" id="w">
+            <h1>74<br>W<br>Tungsten</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  183.8 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6</h6>
+            <h6><strong>Atomic Radius: </strong> 210 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.98 eV</h6>
+            <h6><strong>Melting Point: </strong> 3695 K</h6>
+            <h6><strong>Boiling Point: </strong> 5828 K</h6>
+            <h6><strong>Density: </strong> 19.3 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1783 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showRe();" onmouseout="hideRe();">
+            <div class="no">75</div>
+            <div class="symbol">Re</div>
+            <p>Rhenium</p></div>
+            <div class="form1" id="re">
+            <h1>75<br>Re<br>Rhenium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  186.21 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +7, +6, +4</h6>
+            <h6><strong>Atomic Radius: </strong> 217 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.88 eV</h6>
+            <h6><strong>Melting Point: </strong> 3459 K</h6>
+            <h6><strong>Boiling Point: </strong>  5869 K</h6>
+            <h6><strong>Density: </strong> 20.8 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1925 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showOs();" onmouseout="hideOs();">
+            <div class="no">76</div>
+            <div class="symbol">Os</div>
+            <p>Osmium</p></div>
+            <div class="form1" id="os">
+            <h1>76<br>Os<br>Osmium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  190.2 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 216 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.7 eV</h6>
+            <h6><strong>Melting Point: </strong> 3306 K</h6>
+            <h6><strong>Boiling Point: </strong>  5285 K</h6>
+            <h6><strong>Density: </strong> 22.57 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1803 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showIr();" onmouseout="hideIr();">
+            <div class="no">77</div>
+            <div class="symbol">Ir</div>
+            <p>Iridium</p></div>
+            <div class="form1" id="ir">
+            <h1>77<br>Ir<br>Iridium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  192.22 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>7</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 202 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.1 eV</h6>
+            <h6><strong>Melting Point: </strong> 2719 K</h6>
+            <h6><strong>Boiling Point: </strong>  4701 K</h6>
+            <h6><strong>Density: </strong> 22.42 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1803 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showPt();" onmouseout="hidePt();">
+            <div class="no">78</div>
+            <div class="symbol">Pt</div>
+            <p>Platinum</p></div>
+            <div class="form1" id="pt">
+            <h1>78<br>Pt<br>Platinum</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  195.08 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>1</sup>4f<sup>14</sup>5d<sup>9</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 209 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9 eV</h6>
+            <h6><strong>Melting Point: </strong> 2041.55 K</h6>
+            <h6><strong>Boiling Point: </strong>  4098 K</h6>
+            <h6><strong>Density: </strong> 21.46 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1735 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showAu();" onmouseout="hideAu();">
+            <div class="no">79</div>
+            <div class="symbol">Au</div>
+            <p>Gold</p></div>
+            <div class="form1" id="au">
+            <h1>79<br>Au<br>Gold</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 196.96657 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>1</sup>4f<sup>14</sup>5d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +1</h6>
+            <h6><strong>Atomic Radius: </strong> 166 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.226 eV</h6>
+            <h6><strong>Melting Point: </strong> 1337.33 K</h6>
+            <h6><strong>Boiling Point: </strong>  3129 K</h6>
+            <h6><strong>Density: </strong> 19.282 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showHg();" onmouseout="hideHg();">
+            <div class="no">80</div>
+            <div class="symbol">Hg</div>
+            <p>Mercury</p></div>
+            <div class="form1" id="hg">
+            <h1>80<br>Hg<br>Mercury</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Liquid</h6>
+            <h6><strong>Atomic Mass:</strong>  200.59 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2, +1</h6>
+            <h6><strong>Atomic Radius: </strong> 209 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 10.438 eV</h6>
+            <h6><strong>Melting Point: </strong> 234.32 K</h6>
+            <h6><strong>Boiling Point: </strong>  629.88 K</h6>
+            <h6><strong>Density: </strong> 13.5336 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showTl();" onmouseout="hideTl();">
+            <div class="no">81</div>
+            <div class="symbol">Tl</div>
+            <p>Thallium</p></div>
+            <div class="form" id="tl">
+            <h1>81<br>Tl<br>Thallium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  204.383 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +1</h6>
+            <h6><strong>Atomic Radius: </strong> 196 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.108 eV</h6>
+            <h6><strong>Melting Point: </strong> 577 K</h6>
+            <h6><strong>Boiling Point: </strong>  1746 K</h6>
+            <h6><strong>Density: </strong> 11.8 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1861 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showPb();" onmouseout="hidePb();">
+            <div class="no">82</div>
+            <div class="symbol">Pb</div>
+            <p>Lead</p></div>
+            <div class="form" id="pb">
+            <h1>82<br>Pb<br>Lead</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  207 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 202 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.417 eV</h6>
+            <h6><strong>Melting Point: </strong> 600.61 K</h6>
+            <h6><strong>Boiling Point: </strong>  2022 K</h6>
+            <h6><strong>Density: </strong> 11.342 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  Ancient </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showBi();" onmouseout="hideBi();">
+            <div class="no">83</div>
+            <div class="symbol">Bi</div>
+            <p>Bismuth</p></div>
+            <div class="form" id="bi">
+            <h1>83<br>Bi<br>Bismuth</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 208.9804 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 207 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 7.289 eV</h6>
+            <h6><strong>Melting Point: </strong> 544.55 K</h6>
+            <h6><strong>Boiling Point: </strong>  1837 K</h6>
+            <h6><strong>Density: </strong> 9.807 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1753 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showPo();" onmouseout="hidePo();">
+            <div class="no">84</div>
+            <div class="symbol">Po</div>
+            <p>Polonium</p></div>
+            <div class="form" id="po">
+            <h1>84<br>Po<br>Polonium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Metalloid</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 208.98243 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 197 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 8.417 eV</h6>
+            <h6><strong>Melting Point: </strong> 527 K</h6>
+            <h6><strong>Boiling Point: </strong>  1235 K</h6>
+            <h6><strong>Density: </strong> 9.32 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1898 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showAt();" onmouseout="hideAt();">
+            <div class="no">85</div>
+            <div class="symbol">At</div>
+            <p>Astatine</p></div>
+            <div class="form" id="at">
+            <h1>85<br>At<br>Astatine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 209.98715 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>5</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 202 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 9.5 eV</h6>
+            <h6><strong>Melting Point: </strong> 575 K</h6>
+            <h6><strong>Density: </strong> 7 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1940 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="p" onmouseover="showRn();" onmouseout="hideRn();">
+            <div class="no">86</div>
+            <div class="symbol">Rn</div>
+            <p>Radon</p>
+            <div class="form" id="rn">
+            <h1>86<br>Rn<br>Radon</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong>Gas</h6>
+            <h6><strong>Atomic Mass:</strong>  222.01758 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> 0</h6>
+            <h6><strong>Atomic Radius: </strong> 220 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 10.745 eV</h6>
+            <h6><strong>Melting Point: </strong> 202 K</h6>
+            <h6><strong>Boiling Point: </strong>  211.45 K</h6>
+            <h6><strong>Density: </strong> 0.00973 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1900 </h6>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Period 7 -->
+      <div class="period7">
+        <div class="grid-container">
+          <div class="grid-item" ><div class="s" onmouseover="showFr();" onmouseout="hideFr();">
+            <div class="no">87</div>
+            <div class="symbol">Fr</div>
+            <p>Francium</p></div>
+            <div class="form" id="fr">
+            <h1>87<br>Fr<br>Francium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkali Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  223.01973 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +1</h6>
+            <h6><strong>Atomic Radius: </strong> 348 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 3.9 eV</h6>
+            <h6><strong>Melting Point: </strong> 300 K</h6>
+            <h6><strong>Year Discovered: </strong>  1939 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="s" onmouseover="showRa();" onmouseout="hideRa();">
+            <div class="no">88</div>
+            <div class="symbol">Ra</div>
+            <p>Radium</p></div>
+            <div class="form" id="ra">
+            <h1>88<br>Ra<br>Radium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Alkaline Earth Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  226.02541 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +2</h6>
+            <h6><strong>Atomic Radius: </strong> 012183 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.279 eV</h6>
+            <h6><strong>Melting Point: </strong> 973 K</h6>
+            <h6><strong>Boiling Point: </strong>  1413 K</h6>
+            <h6><strong>Density: </strong> 5 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1898 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showAc();" onmouseout="hideAc();">
+            <div class="no">89</div>
+            <div class="symbol">Ac</div>
+            <p>Actinium</p></div>
+            <div class="form" id="ac">
+            <h1>89<br>Ac<br>Actinium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  227.02775 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 260 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.17 eV</h6>
+            <h6><strong>Melting Point: </strong> 1324 K</h6>
+            <h6><strong>Boiling Point: </strong>  3471 K</h6>
+            <h6><strong>Density: </strong> 10.07 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1899 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showRf();" onmouseout="hideRf();">
+            <div class="no">104</div>
+            <div class="symbol">Rf</div>
+            <p>Rutherfordium</p></div>
+            <div class="form2" id="rf">
+            <h1>104<br>Rf<br>Rutherfordium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  267.122 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4</h6>
+            <h6><strong>Atomic Radius: </strong> 150 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1964 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showDb();" onmouseout="hideDb();">
+            <div class="no">105</div>
+            <div class="symbol">Db</div>
+            <p>Dubnium</p></div>
+            <div class="form2" id="db">
+            <h1>105<br>Db<br>Dubnium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  268.126 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>3</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 139 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1967 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showSg();" onmouseout="hideSg();">
+            <div class="no">106</div>
+            <div class="symbol">Sg</div>
+            <p>Seaborgium</p></div>
+            <div class="form2" id="sg">
+            <h1>106<br>Sg<br>Seaborgium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  271.134 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>4</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 132 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1974 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showBh();" onmouseout="hideBh();">
+            <div class="no">107</div>
+            <div class="symbol">Bh</div>
+            <p>Bohrium</p></div>
+            <div class="form3" id="bh">
+            <h1>107<br>Bh<br>Bohrium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  274.144 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>5</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 128 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1976 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="d" onmouseover="showHs();" onmouseout="hideHs();">
+            <div class="no">108</div>
+            <div class="symbol">Hs</div>
+            <p>Hassium</p></div>
+            <div class="form3" id="hs">
+            <h1>108<br>Hs<br>Hassium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  277.152 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>6</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 126 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1984 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showMt();" onmouseout="hideMt();">
+            <div class="no">109</div>
+            <div class="symbol">Mt</div>
+            <p>Meitnerium</p></div>
+            <div class="form3" id="mt">
+            <h1>109<br>Mt<br>Meitnerium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  278.156 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>7</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 128 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1982 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showDs();" onmouseout="hideDs();">
+            <div class="no">110</div>
+            <div class="symbol">Ds</div>
+            <p>Darmstadtium</p></div>
+            <div class="form3" id="ds">
+            <h1>110<br>Ds<br>Darmstadtium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  281.165 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>8</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 132 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1994 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showRg();" onmouseout="hideRg();">
+            <div class="no">111</div>
+            <div class="symbol">Rg</div>
+            <p>Roentgenium</p></div>
+            <div class="form3" id="rg">
+            <h1>111<br>Rg<br>Roentgenium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  282.169 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>9</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 138 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1994 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="d" onmouseover="showCn();" onmouseout="hideCn();">
+            <div class="no">112</div>
+            <div class="symbol">Cn</div>
+            <p>Copernicium</p></div>
+            <div class="form3" id="cn">
+            <h1>112<br>Cn<br>Copernicium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  285.177 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 147 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1996 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showNh();" onmouseout="hideNh();">
+            <div class="no">113</div>
+            <div class="symbol">Nh</div>
+            <p>Nihonium</p></div>
+            <div class="form2" id="nh">
+            <h1>113<br>Nh<br>Nihonium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  286.183 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>1</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 170 pm</h6>
+            <h6><strong>Year Discovered: </strong>  2004 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showFl();" onmouseout="hideFl();">
+            <div class="no">114</div>
+            <div class="symbol">Fl</div>
+            <p>Flerovium</p></div>
+            <div class="form2" id="fl">
+            <h1>114<br>Fl<br>Flerovium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  289.191 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>7p<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 180 pm</h6>
+            <h6><strong>Year Discovered: </strong>  1998 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showMc();" onmouseout="hideMc();">
+            <div class="no">115</div>
+            <div class="symbol">Mc</div>
+            <p>Moscovium</p></div>
+            <div class="form2" id="mc">
+            <h1>115<br>Mc<br>Moscovium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong> 290.196 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>7p<sup>3</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 187 pm</h6>
+            <h6><strong>Year Discovered: </strong>  2003 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showLv();" onmouseout="hideLv();">
+            <div class="no">116</div>
+            <div class="symbol">Lv</div>
+            <p>Livermorium</p></div>
+            <div class="form2" id="lv">
+            <h1>116<br>Lv<br>Livermorium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Post-Transition Metal</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  293.205 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>7p<sup>4</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 183 pm</h6>
+            <h6><strong>Year Discovered: </strong>  2000 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showTs();" onmouseout="hideTs();">
+            <div class="no">117</div>
+            <div class="symbol">Ts</div>
+            <p>Tennessine</p></div>
+            <div class="form2" id="ts">
+            <h1>117<br>Ts<br>Tennessine</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Halogen</h6>
+            <h6><strong>Standard State:</strong>Solid (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  294.211 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>7p<sup>5</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Atomic Radius: </strong> 138 pm</h6>
+            <h6><strong>Year Discovered: </strong>  2010 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="p" onmouseover="showOg();" onmouseout="hideOg();">
+            <div class="no">118</div>
+            <div class="symbol">Og</div>
+            <p>Oganesson</p></div>
+            <div class="form2" id="og">
+            <h1>118<br>Og<br>Oganesson</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Noble Gas</h6>
+            <h6><strong>Standard State:</strong>Gas (Expected)</h6>
+            <h6><strong>Atomic Mass:</strong>  294.214 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>7p<sup>6</sup>5f<sup>14</sup>6d<sup>10</sup></h6>
+            <h6><strong>Year Discovered: </strong>  2006 </h6>
+          </div>
+          </div>
+        </div>
+      </div>
+      <h1></h1>
+      <!-- Period 8 -->
+      <div class="period8">
+        <div class="grid-container">
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item"> <div class="f" onmouseover="showCe();" onmouseout="hideCe();">
+            <div class="no">58</div>
+            <div class="symbol">Ce</div>
+            <p>Cerium</p></div>
+            <div class="form" id="ce">
+            <h1>58<br>Ce<br>Cerium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong>  140.12 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>1</sup>5d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong>2345 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.539 eV</h6>
+            <h6><strong>Melting Point: </strong> 1071 K</h6>
+            <h6><strong>Boiling Point: </strong>  3697 K</h6>
+            <h6><strong>Density: </strong> 6.770 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1803 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showPr();" onmouseout="hidePr();">
+            <div class="no">59</div>
+            <div class="symbol">Pr</div>
+            <p>Praseodymium</p></div>
+            <div class="form" id="pr">
+            <h1>59<br>Pr<br>Praseodymium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 140.9077 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>3</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 239 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.464 eV</h6>
+            <h6><strong>Melting Point: </strong> 1204 K</h6>
+            <h6><strong>Boiling Point: </strong>  3793 K</h6>
+            <h6><strong>Density: </strong> 6.77 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1885 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showNd();" onmouseout="hideNd();">
+            <div class="no">60</div>
+            <div class="symbol">Nd</div>
+            <p>Neodymium</p></div>
+            <div class="form" id="nd">
+            <h1>60<br>Nd<br>Neodymium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 144.24 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>4</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 229 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.525 eV</h6>
+            <h6><strong>Melting Point: </strong> 1294 K</h6>
+            <h6><strong>Boiling Point: </strong>  3347 K</h6>
+            <h6><strong>Density: </strong> 7.01 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1885 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showPm();" onmouseout="hidePm();">
+            <div class="no">61</div>
+            <div class="symbol">Pm</div>
+            <p>Promethium</p></div>
+            <div class="form" id="pm">
+            <h1>61<br>Pm<br>Promethium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 144.91276 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>5</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 236 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.55 eV</h6>
+            <h6><strong>Melting Point: </strong> 1315 K</h6>
+            <h6><strong>Boiling Point: </strong>  3273 K</h6>
+            <h6><strong>Density: </strong> 7.26 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1945 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showSm();" onmouseout="hideSm();">
+            <div class="no">62</div>
+            <div class="symbol">Sm</div>
+            <p>Samarium</p></div>
+            <div class="form" id="sm">
+            <h1>62<br>Sm<br>Samarium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 150.4 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 229 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.644 eV</h6>
+            <h6><strong>Melting Point: </strong> 1347 K</h6>
+            <h6><strong>Boiling Point: </strong>  2067 K</h6>
+            <h6><strong>Density: </strong> 7.52 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1879 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showEu();" onmouseout="hideEu();">
+            <div class="no">63</div>
+            <div class="symbol">Eu</div>
+            <p>Europium</p></div>
+            <div class="form" id="eu">
+            <h1>63<br>Eu<br>Europium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 151.96 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>7</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 233 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.670 eV</h6>
+            <h6><strong>Melting Point: </strong> 1095 K</h6>
+            <h6><strong>Boiling Point: </strong>  1802 K</h6>
+            <h6><strong>Density: </strong> 5.24 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1901 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showGd();" onmouseout="hideGd();">
+            <div class="no">64</div>
+            <div class="symbol">Gd</div>
+            <p>Gadolinium</p></div>
+            <div class="form" id="gd">
+            <h1>64<br>Gd<br>Gadolinium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 157.2 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>7</sup>5d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 237 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.150 eV</h6>
+            <h6><strong>Melting Point: </strong> 1586 K</h6>
+            <h6><strong>Boiling Point: </strong>  3546 K</h6>
+            <h6><strong>Density: </strong> 7.90 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1880 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showTb();" onmouseout="hideTb();">
+            <div class="no">65</div>
+            <div class="symbol">Tb</div>
+            <p>Terbium</p></div>
+            <div class="form" id="tb">
+            <h1>65<br>Tb<br>Terbium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 158.92535 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>9</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 221 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.864 eV</h6>
+            <h6><strong>Melting Point: </strong> 1629 K</h6>
+            <h6><strong>Boiling Point: </strong>  3503 K</h6>
+            <h6><strong>Density: </strong> 8.23 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1843 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showDy();" onmouseout="hideDy();">
+            <div class="no">66</div>
+            <div class="symbol">Dy</div>
+            <p>Dysprosium</p></div>
+            <div class="form" id="dy">
+            <h1>66<br>Dy<br>Dysprosium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 162.50 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 229 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.939 eV</h6>
+            <h6><strong>Melting Point: </strong> 1685 K</h6>
+            <h6><strong>Boiling Point: </strong>  2840 K</h6>
+            <h6><strong>Density: </strong> 8.55 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1886 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showHo();" onmouseout="hideHo();">
+            <div class="no">67</div>
+            <div class="symbol">Ho</div>
+            <p>Holmium</p></div>
+            <div class="form" id="ho">
+            <h1>67<br>Ho<br>Holmium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 164.93033 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>11</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 216 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.022 eV</h6>
+            <h6><strong>Melting Point: </strong> 1747 K</h6>
+            <h6><strong>Boiling Point: </strong>  2973 K</h6>
+            <h6><strong>Density: </strong> 8.80 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1878 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showEr();" onmouseout="hideEr();">
+            <div class="no">68</div>
+            <div class="symbol">Er</div>
+            <p>Erbium</p></div>
+            <div class="form" id="er">
+            <h1>68<br>Er<br>Erbium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 167.26 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>12</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 235 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.108 eV</h6>
+            <h6><strong>Melting Point: </strong> 1802 K</h6>
+            <h6><strong>Boiling Point: </strong>  3141 K</h6>
+            <h6><strong>Density: </strong> 9.07 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1843 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showTm();" onmouseout="hideTm();">
+            <div class="no">69</div>
+            <div class="symbol">Tm</div>
+            <p>Thulium</p></div>
+            <div class="form" id="tm">
+            <h1>69<br>Tm<br>Thulium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 168.93422 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>13</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 227 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.184 eV</h6>
+            <h6><strong>Melting Point: </strong> 1818 K</h6>
+            <h6><strong>Boiling Point: </strong>  2223 K</h6>
+            <h6><strong>Density: </strong> 9.32 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1879 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showYb();" onmouseout="hideYb();">
+            <div class="no">70</div>
+            <div class="symbol">Yb</div>
+            <p>Ytterbium</p></div>
+            <div class="form" id="yb">
+            <h1>70<br>Yb<br>Ytterbium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 173.04 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Atomic Radius: </strong> 242 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.254 eV</h6>
+            <h6><strong>Melting Point: </strong> 1092 K</h6>
+            <h6><strong>Boiling Point: </strong>  1469 K</h6>
+            <h6><strong>Density: </strong> 6.90 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1878 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showLu();" onmouseout="hideLu();">
+            <div class="no">71</div>
+            <div class="symbol">Lu</div>
+            <p>Lutetium</p></div>
+            <div class="form" id="lu">
+            <h1>71<br>Lu<br>Lutetium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Lanthanide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 174.967 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 221 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.426 eV</h6>
+            <h6><strong>Melting Point: </strong> 1936 K</h6>
+            <h6><strong>Boiling Point: </strong>  3675 K</h6>
+            <h6><strong>Density: </strong> 9.84 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1907 </h6>
+          </div>
+          </div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+        </div>
+      </div>
+      <!-- Period 9 -->
+      <div class="period9">
+        <div class="grid-container">
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+          <div class="grid-item"> <div class="f" onmouseover="showTh();" onmouseout="hideTh();">
+            <div class="no">90</div>
+            <div class="symbol">Th</div>
+            <p>Thorium</p></div>
+            <div class="form" id="th">
+            <h1>90<br>Th<br>Thorium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 232.038 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>6d<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4</h6>
+            <h6><strong>Atomic Radius: </strong> 237 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.08 eV</h6>
+            <h6><strong>Melting Point: </strong> 2023 K</h6>
+            <h6><strong>Boiling Point: </strong>  5061 K</h6>
+            <h6><strong>Density: </strong> 11.72 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1828 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showPa();" onmouseout="hidePa();">
+            <div class="no">91</div>
+            <div class="symbol">Pa</div>
+            <p>Protactinium</p></div>
+            <div class="form" id="pa">
+            <h1>91<br>Pa<br>Protactinium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 231.0359 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>2</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +5, +4</h6>
+            <h6><strong>Atomic Radius: </strong> 243 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.89 eV</h6>
+            <h6><strong>Melting Point: </strong> 1845 K</h6>
+            <h6><strong>Density: </strong> 15.37 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1913 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showU();" onmouseout="hideU();">
+            <div class="no">92</div>
+            <div class="symbol">U</div>
+            <p>Uranium</p></div>
+            <div class="form" id="u">
+            <h1>92<br>U<br>Uranium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 238.0289 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>3</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +5, +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 240 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.194 eV</h6>
+            <h6><strong>Melting Point: </strong> 1408 K</h6>
+            <h6><strong>Boiling Point: </strong>  4404 K</h6>
+            <h6><strong>Density: </strong> 18.95 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1789 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showNp();" onmouseout="hideNp();">
+            <div class="no">93</div>
+            <div class="symbol">Np</div>
+            <p>Neptunium</p></div>
+            <div class="form" id="np">
+            <h1>93<br>Np<br>Neptunium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 237.04817 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>4</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +5, +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 221 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.266 eV</h6>
+            <h6><strong>Melting Point: </strong> 917 K</h6>
+            <h6><strong>Boiling Point: </strong>  4175 K</h6>
+            <h6><strong>Density: </strong> 20.25 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1940 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showPu();" onmouseout="hidePu();">
+            <div class="no">94</div>
+            <div class="symbol">Pu</div>
+            <p>Plutonium</p></div>
+            <div class="form" id="pu">
+            <h1>94<br>Pu<br>Plutonium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 224.06420 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>6</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +5, +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 243 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.06 eV</h6>
+            <h6><strong>Melting Point: </strong> 913 K</h6>
+            <h6><strong>Boiling Point: </strong>  3501 K</h6>
+            <h6><strong>Density: </strong> 19.84 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1940 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showAm();" onmouseout="hideAm();">
+            <div class="no">95</div>
+            <div class="symbol">Am</div>
+            <p>Americium</p></div>
+            <div class="form" id="am">
+            <h1>95<br>Am<br>Americium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 243.06138 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>7</sup></h6>
+            <h6><strong>Oxidation States:</strong> +6, +5, +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 244 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 5.993 eV</h6>
+            <h6><strong>Melting Point: </strong> 1449K</h6>
+            <h6><strong>Boiling Point: </strong>  2284 K</h6>
+            <h6><strong>Density: </strong> 13.69 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1944 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showCm();" onmouseout="hideCm();">
+            <div class="no">96</div>
+            <div class="symbol">Cm</div>
+            <p>Curium</p></div>
+            <div class="form" id="cm">
+            <h1>96<br>Cm<br>Curium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 247.07035 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>7</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 245 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.02 eV</h6>
+            <h6><strong>Melting Point: </strong> 1618 K</h6>
+            <h6><strong>Boiling Point: </strong>  3400 K</h6>
+            <h6><strong>Density: </strong> 13.51 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1944 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showBk();" onmouseout="hideBk();">
+            <div class="no">97</div>
+            <div class="symbol">Bk</div>
+            <p>Berkelium</p></div>
+            <div class="form" id="bk">
+            <h1>97<br>Bk<br>Berkelium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 247.07031 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>9</sup></h6>
+            <h6><strong>Oxidation States:</strong> +4, +3</h6>
+            <h6><strong>Atomic Radius: </strong> 244 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.23 eV</h6>
+            <h6><strong>Melting Point: </strong> 1323 K</h6>
+            <h6><strong>Density: </strong> 14 g/cm<sup>3</sup></h6>
+            <h6><strong>Year Discovered: </strong>  1949 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showCf();" onmouseout="hideCf();">
+            <div class="no">98</div>
+            <div class="symbol">Cf</div>
+            <p>Californium</p></div>
+            <div class="form" id="cf">
+            <h1>98<br>Cf<br>Californium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 251.07959 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>10</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 245 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.30 eV</h6>
+            <h6><strong>Melting Point: </strong> 1173 K</h6>
+            <h6><strong>Year Discovered: </strong>  1950 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showEs();" onmouseout="hideEs();">
+            <div class="no">99</div>
+            <div class="symbol">Es</div>
+            <p>Einsteinium</p></div>
+            <div class="form" id="es">
+            <h1>99<br>Es<br>Einsteinium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 252.0830 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>11</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Atomic Radius: </strong> 245 pm</h6>
+            <h6><strong>Ionization Energy: </strong> 6.42 eV</h6>
+            <h6><strong>Melting Point: </strong> 1133 K</h6>
+            <h6><strong>Year Discovered: </strong> 1952 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showFm();" onmouseout="hideFm();">
+            <div class="no">100</div>
+            <div class="symbol">Fm</div>
+            <p>Fermium</p></div>
+            <div class="form" id="fm">
+            <h1>100<br>Fm<br>Fermium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 257.09511 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]5f<sup>12</sup>7s<sup>2</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Ionization Energy: </strong> 6.50eV</h6>
+            <h6><strong>Melting Point: </strong> 1800 K</h6>
+            <h6><strong>Year Discovered: </strong>  1952 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showMd();" onmouseout="hideMd();">
+            <div class="no">101</div>
+            <div class="symbol">Md</div>
+            <p>Mendelevium</p></div>
+            <div class="form" id="md">
+            <h1>101<br>Md<br>Mendelevium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 258.09843 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>13</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Ionization Energy: </strong> 6.58 eV</h6>
+            <h6><strong>Melting Point: </strong> 1100 K</h6>
+            <h6><strong>Year Discovered: </strong>  1955 </h6>
+          </div>
+          </div>
+          <div class="grid-item"> <div class="f" onmouseover="showNo();" onmouseout="hideNo();">
+            <div class="no">102</div>
+            <div class="symbol">No</div>
+            <p>Nobelium</p></div>
+            <div class="form" id="no">
+            <h1>102<br>No<br>Nobelium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 259.10100 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3, +2</h6>
+            <h6><strong>Ionization Energy: </strong> 6.65 eV</h6>
+            <h6><strong>Melting Point: </strong> 1100 K</h6>
+            <h6><strong>Year Discovered: </strong>  1957 </h6>
+          </div>
+          </div>
+          <div class="grid-item" ><div class="f" onmouseover="showLr();" onmouseout="hideLr();">
+            <div class="no">103</div>
+            <div class="symbol">Lr</div>
+            <p>Lawrencium</p></div>
+            <div class="form" id="lr">
+            <h1>103<br>Lr<br>Lawrencium</h1>
+            <hr>
+            <h6><strong>Chemical Group BlocK: </strong>Actinide</h6>
+            <h6><strong>Standard State:</strong>Solid</h6>
+            <h6><strong>Atomic Mass:</strong> 262.110 u</h6>
+            <h6><strong>Electron Configuration: </strong>[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>1</sup></h6>
+            <h6><strong>Oxidation States:</strong> +3</h6>
+            <h6><strong>Melting Point: </strong> 1900 K</h6>
+            <h6><strong>Year Discovered: </strong>  1961 </h6>
+          </div>
+          </div>
+          <div class="grid-item1"></div>
+          <div class="grid-item1"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
