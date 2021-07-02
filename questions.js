@@ -2,7 +2,7 @@
 let questions = [
     {
     numb: 1,
-    question: "a cell is 28th from top and 4th from right what is it's cell address",
+    question: "a cell is 28th from top and 4th from left what is it's cell address",
     answer: "D28",
     options: [
         "F98",
