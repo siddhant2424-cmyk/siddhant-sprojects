@@ -26,7 +26,7 @@ let questions = [
     {
     numb: 3,
     question: "What are values",
-    answer: "any data containing only special characters",
+    answer: "The numerical data consisting of only numbers",
     options: [
         "any data containing only special characters",
       "Any expressions that begins with an equals",
